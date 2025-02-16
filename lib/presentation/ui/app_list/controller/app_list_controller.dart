@@ -33,17 +33,6 @@ class AppListController extends State<AppListView> {
       "page": const FdMainNavigationView(),
       "theme": getFoodDeliveryTheme(),
     },
-    {
-      "label": "EMoney",
-      "icon": Icons.wallet,
-      "page": const EmMainNavigationView(),
-      "theme": getEMoneyTheme(),
-    },
-    {
-      "label": "Travel",
-      "icon": Icons.flight,
-      "page": const TvMainNavigationView(),
-      "theme": getTravelTheme(),
-    },
+    
   ];
 }
